@@ -1,0 +1,165 @@
+/*menu ----------------------------------*/
+
+/*menu animation*/
+@keyframes menu_hover {
+    from{
+        font-size: 15px;
+        font-weight: 200;
+        color: aliceblue;
+    }
+    to{
+        font-size: 25px;
+        font-weight: 700;
+        color: antiquewhite;
+    }
+}
+.menu_div_outside{
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.menu_div{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu{
+    font-family: 'Raleway';
+    font-weight: 200;
+    font-size: 15px;
+    word-spacing: 0.1em;
+    color: aliceblue;
+}
+
+#broccoli_menu{
+    translate: 50px;
+    opacity: 0;
+}
+
+#design_menu{
+    translate: 50px;
+    opacity: 0;
+}
+
+#animation_menu{
+    translate: 50px;
+    opacity: 0;
+}
+
+#photography_menu{
+    translate: 50px;
+    opacity: 0;
+}
+
+#modeling_menu{
+    translate: 50px;
+    opacity: 0;
+}
+
+#website_menu{
+    translate: 50px;
+    opacity: 0;
+}
+
+#contact_menu{
+    translate: 50px;
+    opacity: 0;
+}
+
+/*hover function---------------------------------------*/
+#broccoli_menu:hover{
+    font-size: 25px;
+    font-weight: 700;
+    color: antiquewhite;
+    cursor: pointer;
+    animation: menu_hover;
+    animation-duration: 0.4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+#design_menu:hover{
+    font-size: 25px;
+    font-weight: 700;
+    color: antiquewhite;
+    cursor: pointer;
+    animation: menu_hover;
+    animation-duration: 0.4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+#animation_menu:hover{
+    font-size: 25px;
+    font-weight: 700;
+    color: antiquewhite;
+    cursor: pointer;
+    animation: menu_hover;
+    animation-duration: 0.4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+#photography_menu:hover{
+    font-size: 25px;
+    font-weight: 700;
+    color: antiquewhite;
+    cursor: pointer;
+    animation: menu_hover;
+    animation-duration: 0.4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+#modeling_menu:hover{
+    font-size: 25px;
+    font-weight: 700;
+    color: antiquewhite;
+    cursor: pointer;
+    animation: menu_hover;
+    animation-duration: 0.4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+#website_menu:hover{
+    font-size: 25px;
+    font-weight: 700;
+    color: antiquewhite;
+    cursor: pointer;
+    animation: menu_hover;
+    animation-duration: 0.4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+#contact_menu:hover{
+    font-size: 25px;
+    font-weight: 700;
+    color: antiquewhite;
+    cursor: pointer;
+    animation: menu_hover;
+    animation-duration: 0.4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+@media only screen and (max-width: 480px) {
+    .menu_div_outside{
+        display: none;
+    }
+    
+}
+/* pad setting ---------------------------------------!!!!!!!!!!!!!!!!!*/
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+}

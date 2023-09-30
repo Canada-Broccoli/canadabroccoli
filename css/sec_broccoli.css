@@ -1,0 +1,98 @@
+/*slogan & pic-------------------------------*/
+.slogan_div{
+    width: 100%;
+    margin: 500px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    word-spacing: 0.2em;
+    /*background-color: beige;*/
+    /*height: 500px;*/
+}
+
+#slogan{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin: 50px 0 0 -300px;
+    /*background-color: aqua;*/
+    
+}
+
+#humor{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: "Raleway";
+    color: #ffffff;
+    opacity: 0;
+    margin: 0;
+    transform: translateY(80px);
+}
+
+#humor_keyword{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#designer{
+    margin: 100px 10px 10px 10px;
+    width: 380px;
+}
+
+/*move funaction*/
+#whenit{
+    position: relative;
+}
+
+/*self info-------------------------------------------------------*/
+.selfinfo_div{
+    margin: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e4e4e4;
+    width: 60vw;
+    padding: 10px;
+    border-radius: 50px 0 50px 0;
+}
+
+.selfinfo_script{
+    padding: 0;
+    margin: 5px;
+}
+
+.content_div{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    /*background-color: yellow;*/
+    word-spacing: 0.1em;
+    opacity: 0;
+    position: relative;
+    top: 80px;
+    padding: 10px;
+    
+}
+
+#hellothere{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+#sec_self_design{
+    font-family: Deepcolor;
+    font-size: 30px;
+    color: white;
+    opacity: 0;
+    position: relative;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    margin: 10px;
+}

@@ -1,0 +1,98 @@
+/*default codes---------------------------------*/
+/*main-title font*/
+    @font-face {
+        font-family: 'deepcolor';
+        src: url('../font/deep-color-deep-color-svg-400.otf') format(truetype);
+    }
+
+    /*sub-title font*/
+    @font-face {
+        font-family: 'Raleway';
+        src: url('../font/Raleway-VariableFont_wght.ttf') format(truetype);
+    }
+
+    /*content-default font*/
+    @font-face {
+        font-family: 'Rubik';
+        src: url('../font/Rubik-VariableFont_wght.ttf') format(truetype);
+    }
+
+
+
+    /* main code, for globle css styles---------------------*/
+.body{
+    width: 100%;
+    font-family: 'Rubik';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.maintitle{
+    font-family: 'deepcolor';
+}
+
+.subtitle{
+    font-family: 'Raleway';
+    font-size: 30px;
+}
+
+.title_sticky {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+
+.menu_sticky {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+  }
+  
+.sections{
+    font-family: 'Deepcolor';
+    font-size: 30px;
+    color: rgb(255, 198, 123);
+    z-index: 0;
+}
+
+.g_sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.d_word{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+#notice{
+    font-family: Raleway;
+    font-size: 20px;
+    color: brown;
+    display: none;
+}
