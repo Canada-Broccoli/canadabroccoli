@@ -9,7 +9,6 @@
 }
 
 body{
-    overflow: hidden;
     background-color: #E4F3E5;
 }
 
@@ -19,6 +18,10 @@ header div, body, main, section, footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+header div, main, section, footer{
+    overflow: hidden;
 }
 
 /* fonts */
@@ -50,6 +53,7 @@ a{
 
 img{
     width: 80vw;
+    opacity: 0;
 }
 
 /* ids */
