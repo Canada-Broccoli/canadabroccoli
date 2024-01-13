@@ -1,217 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Broccoli Design</title>
-  <!-- self editing css -->
-  <link rel="stylesheet" href="css\main.css"> <!-- main css -->
-  <link rel="stylesheet" href="css\intro_div.css"> <!-- main css -->
-  <link rel="stylesheet" href="css\menubar.css"> <!-- main css -->
-  <link rel="stylesheet" href="css\sec_broccoli.css"> <!-- main css -->
-  <link rel="stylesheet" href="css\sec_design_more.css"> <!-- main css -->
-  <link rel="stylesheet" href="css\rwd.css"> <!-- main css -->
-
-  <!-- js plugins------------------------------------------------------------ -->
-  <script src="js\plugins\jquery-3.5.1.min.js"></script>
-  <script src="js\plugins\snap.svg-min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script>
-  <script src="js\plugins\smoothscroll.min.js"></script>
-
-  <!-- self editing js----------------------------------------------------------- -->
-  <script src="js\intro_and_logo.js"></script> <!-- intro&logo js -->
-  <script src="js\menubar.js"></script> <!-- menubar js -->
-  <script src="js\sec_broccoli.js"></script> <!-- broccoli js -->
-  <script src="js\sec_ani_more.js"></script> <!-- broccoli js -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="n-css/balls-style.css">
+    <link rel="stylesheet" href="n-css/fonts-style.css">
+    <link rel="stylesheet" href="n-css/logo-style.css">
+    <link rel="stylesheet" href="n-css/layout-style.css">
 </head>
-
-<body class="body">
-  <!-- the intro js animation -->
-  <!-- intro div -->
-  <div class="intro_div">
-    <div id="Better">
-      <h2 class="intro_words">Better</h2>
-    </div>
-    <div class="rw_div">
-      <h2 class="intro_words" id="life">Life</h2>
-      <h2 class="intro_words" id="web">Web</h2>
-      <h2 class="intro_words" id="idea">Idea</h2>
-      <h2 class="intro_words" id="design">Design</h2>
-      <h2 class="intro_words" id="broccoli">Broccoli</h2>
-    </div>
-  </div>
-  <!-- real title -->
-  <div class="title_div" id="broccolidesign">
-    <div class="title_div_inner">
-      <div id="logo_l">
-        <img id="logo_l_img" src="media\broccoli_logo_1.svg"/>
-      </div>
-        <h1 class="maintitle" id="b_design">Broccoli Design</h1>
-      <div id="logo_r">
-        <svg id="logo_r_img"></svg>
-      </div>
-    </div>
-    <p id="notice">Having best experience on computer.</p>
-  </div>
-          <!-- for free photo plugin -->
-          <div>
-            <p><a href="free-pho.html">Free Photo Service</a></p>
-          </div>
-  <!-- header menu (wait for link!!!!) -->
-  <header class="menu_div_outside">
-    <div class="menu_div">
-      <h4 class="menu" id="broccoli_menu">Broccoli</h4>
-      <h4 class="menu" id="design_menu">Design</h4>
-      <h4 class="menu" id="animation_menu">Animation</h4>
-      <h4 class="menu" id="photography_menu">Photography</h4>
-      <h4 class="menu" id="modeling_menu">Modeling</h4>
-      <h4 class="menu" id="website_menu">Website</h4>
-      <h4 class="menu" id="contact_menu">Contact</h4>
+<body>
+    <header>
+        <p>header here, About Me, Design, Animation, Photography, Website, contect.</p>
+        <!-- side line effect -->
+        <div>
+            <!-- side line up -->
+            <svg class="sideLine-up" width="5%" viewBox="0 0 150 800">
+                <g class="lineUP">
+                    <rect y="75" class="gbd" width="150" height="725"/>
+                    <g>
+                        <circle class="gbd" cx="75" cy="75" r="75"/>
+                    </g>
+                    <g>
+                        <circle class="gbl" cx="96.5" cy="50" r="28.19"/>
+                    </g>
+                </g>
+            </svg>
+            <!-- side line down -->
+            <svg class="sideLine-down" width="5%" viewBox="0 0 150 800">
+                <g class="lineDown">
+                    <rect transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 150 725)" class="gbd" width="150" height="725"/>
+                    <g>
+                        <circle class="gbd" cx="75" cy="725" r="75"/>
+                    </g>
+                    <g>
+                        <circle class="gbl" cx="53.5" cy="750" r="28.19"/>
+                    </g>
+                </g>
+            </svg>
+        </div>
     </header>
-  </div>
-  <!-- section Broccoli --------------------------------------------- -->
-  <!-- my slogan -->
-  <div class="slogan_div">
-    <h3 class="sections" id="sec_bro">Broccoli</h3>
-    <div id="slogan">
-        <h2 class="subtitle" id="whenit">"When it comes to design,</h2>
-      <div id="humor_keyword">
-        <img id="designer" src="media\designer.jpg"/>
-        <h2 class="subtitle" id="humor">HUMOR</h2>
-      </div>
-      <h2 class="subtitle"  id="matters">matters."</h2>
-    </div>
-  </div>
+    <!-- banner div -->
+        <div id="bBanner">
+            <h1 id="b-h1">BROCCOLI</h1>
+            <h2 id="b-h2">DESIGN</h2>
+            <!-- green ball -->
+            <svg id="svgG" viewBox="0 0 500 500">
+                <g class="green-b">
+                    <g>
+                        <circle class="gbd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
+                </g>
+            </svg>
+            <svg id="svgG2" viewBox="0 0 500 500">
+                <g class="green-b">
+                    <g>
+                        <circle class="gbd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
+                </g>
+            </svg>
+            <!-- yellow ball -->
+            <svg id="svgY" viewBox="0 0 500 500">
+                <g class="yellow-b">
+                    <g>
+                        <circle class="ybd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <g>
+                        <circle class="ybl" cx="250" cy="102.5" r="48.79"/>
+                    </g>
+                </g>
+            </svg>
+            <svg id="svgY2" viewBox="0 0 500 500">
+                <g class="yellow-b">
+                    <g>
+                        <circle class="ybd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <g>
+                        <circle class="ybl" cx="250" cy="102.5" r="48.79"/>
+                    </g>
+                </g>
+            </svg>
+            <!-- red ball -->
+            <svg id="svgR" viewBox="0 0 500 500">
+                <g class="red-b">
+                    <g>
+                        <circle class="rbd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <g>
+                        <circle class="rbl" cx="251.1" cy="151.21" r="123.06"/>
+                    </g>
+                </g>
+            </svg>
+            <svg id="svgR2" viewBox="0 0 500 500">
+                <g class="red-b">
+                    <g>
+                        <circle class="rbd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <g>
+                        <circle class="rbl" cx="251.1" cy="151.21" r="123.06"/>
+                    </g>
+                </g>
+            </svg>
+            <!-- blue ball -->
+            <svg id="svgB" viewBox="0 0 500 500">
+                <g class="blue-b">
+                    <g>
+                        <circle class="bbd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <g>
+                        <circle class="bbl" cx="250" cy="102.5" r="48.79"/>
+                    </g>
+                </g>
+            </svg>
+            <svg id="svgB2" viewBox="0 0 500 500">
+                <g class="blue-b">
+                    <g>
+                        <circle class="bbd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <g>
+                        <circle class="bbl" cx="250" cy="102.5" r="48.79"/>
+                    </g>
+                </g>
+            </svg>
+    
+            <!-- broccoli logo -->
+            <svg id="bLogo" class="broccoli-logo" viewBox="0 0 800 800">
+                <g class="b-body">
+                    <path class="gbd" d="M565.38,702.16V702c-40.49-22.3-67.93-65.41-67.93-114.9c0-38.07,16.22-72.33,42.14-96.28
+                        c-49.92-14.93-86.31-61.24-86.31-116.01c0-47.84,27.72-89.21,67.98-108.87c-7.78-10.1-12.41-22.76-12.41-36.47
+                        c0-17.11,7.17-32.53,18.67-43.44c-1.93-22.53-3.92-45.04-5.93-67.49c-2.21-24.62-25.86-41.5-49.87-35.55
+                        c-153.5,38.02-300.13,78.2-438.83,120.13c-16.76,5.06-28.36,20.29-28.69,37.79C1.4,385.37,0,530.91,0,677.49v0.41
+                        c0,22.25,18.06,40.31,40.31,40.31h510.04C559.04,718.2,565.96,710.85,565.38,702.16z M136.82,261.06
+                        c-9.23,14.01-25.58,19.53-36.54,12.31c-10.96-7.2-12.36-24.41-3.1-38.45c9.23-14.01,25.58-19.53,36.54-12.31
+                        C144.68,229.81,146.05,247.02,136.82,261.06z M189.79,352.84c-31.58-3.99-55.72-28.89-38.48-60.5
+                        c6.74-12.03,16.81-21.18,28.15-28.38c5.11-3.23,9.89-6.94,13.83-11.49c5.54-6.41,13.55-11.39,23.07-13.66
+                        c21.11-5.01,41.63,5.19,45.8,22.68c2.09,8.77-0.28,18.26-6.48,26.02c-5.8,7.25-14.39,12.51-24.21,14.83
+                        c-3.64,0.89-7.32,1.3-10.94,1.3c-6.13,0-12.05-1.22-17.34-3.66c-9.05-4.15-15.41-11.55-17.5-20.32c-0.03-0.05-0.03-0.13-0.05-0.2
+                        c-2.24,1.25-4.45,2.54-6.56,3.99c-33.54,22.51-27.08,53.63,11.98,62.86c24.52,5.59,50.79,1.88,73.75-8.75
+                        C242.53,350.35,215.58,356.5,189.79,352.84z M367.86,223.04c-11.65,11.37-33.85,7.53-49.62-8.6
+                        c-15.79-16.12-19.15-38.43-7.53-49.79c11.62-11.39,33.85-7.53,49.62,8.6C376.1,189.37,379.48,211.67,367.86,223.04z"/>
+                </g>
+                <g class="b-g">
+                    <g>
+                        <g>
+                            <circle class="gbd" cx="581.84" cy="229.95" r="52.02"/>
+                        </g>
+                        <circle class="gbl" cx="591.95" cy="221.94" r="27.72"/>
+                    </g>
+                </g>
+                <g class="b-b">
+                    <g>
+                        <g>
+                            <circle class="bbd" cx="582.29" cy="373.95" r="106.34"/>
+                        </g>
+                        <g>
+                            <circle class="bbl" cx="619.38" cy="335.29" r="26.41"/>
+                        </g>
+                    </g>
+                </g>
+                <g class="b-r">
+                    <g>
+                        <g>
+                            <circle class="rbd" cx="708.41" cy="442.95" r="89.22"/>
+                        </g>
+                        <g>
+                            <circle class="rbl" cx="724" cy="418.13" r="39.79"/>
+                        </g>
+                    </g>
+                </g>
+                <g class="b-y">
+                    <g>
+                        <g>
+                            <circle class="ybd" cx="632.5" cy="588.95" r="118.05"/>
+                        </g>
+                        <g>
+                            <circle class="ybl" cx="670.14" cy="554.36" r="34.64"/>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </div>
 
-  <!-- self info  -->
-  <div class="selfinfo_div">
-    <div class="content_div" id="selfinfo_in">
-      <p class="selfinfo_script" id="hellothere">Hello there!</p>
-      <p class="selfinfo_script"><strong>YES</strong>, you are reading an introduction to 
-        a designer's portfolio.</p>
+    <!-- intro -->
+    <div class="main-div">
+        <p id="introP">
+            <strong>Welcome to Broccoli Design!<br></strong>
+            A web portfolio made by me, <strong>Jing-An Chen</strong>, 
+            A versatile and innovative designer.<br>
+            <br>
+            Explore my expertise in photography, web development, and more on this platform.
+            Humor is a cornerstone of my design philosophy, injecting a vibrant and engaging energy into my creations. Dive into this meticulously crafted website to experience my unique approach.<br>
+            <br>
+            Enjoy the diverse range of design works that I've dedicated extensive effort to develop. 
+            And discover how 'Broccoli Design' brings creativity and humor together in design excellence.
+        </p>
+    </div>
+    <!-- About Me -->
+    <div id="about" class="main-div">
+        <!-- link to about me page -->
+        <div class="btn">
+            <h2>About Me</h2>
+            <svg class="green-bbtn" viewBox="0 0 500 500">
+                <g class="btn-ball-group">
+                    <g>
+                        <circle class="gbd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
+                </g>
+            </svg>
+            <button class="real-btn" onclick="aboutmePage()">Learn More</button>
+        </div>
+        <p id="aboutP">
+            <strong>Name:</strong> Jing-An Chen.<br>
+            <strong>Who am I:</strong> <br>A designer who developed multiple skills through years of work in the design industry.<br>
+            <strong>Gender:</strong> Male.<br>
+            <strong>Age:</strong> 26.<br>
+            <strong>Skill:</strong> Design, Photography, Animation.<br>
+            <strong>Education:</strong> <img src="n-media/nkust.jpeg">NKUST. / <img src="n-media/ac.png">AC.<br>
+            <strong>Interist:</strong> Bodybuilding.<br>
+            <strong>Idol:</strong> Richard Sapper.<br>
+            <strong>Slogan:</strong> When it comes to design, humor matters.<br>
+            <strong>Want to know why I become multi-discipline designer? <a href="aboutme.html">Click to learn more!</a></strong>
+        </p>
+        <div id="slogan">
+            <h3 id="whenit">When it comes to design</h3>
+            <svg id="humor" viewBox="0 0 382 241">
+                <text transform="matrix(1 0 0 1 44.0941 138.6953)" class="green-humor">HUMOR</text>
+                    <g>
+                        <g>
+                            <path class="green" d="M380.03,210.99c-0.88-0.33-1.72-0.3-2.48-0.68c0,0-2.81-1.84-2.81-1.84c-13.94-9.53-24.6-23.43-31.06-38.99
+                                c24.74-28.23,29.67-62.82,5.84-93.3c-13.69-17.64-33.25-30.19-53.2-39.87C249.23,14.2,195.31,4.98,143.62,13.13
+                                c-39.01,6.34-78.71,22.23-105.39,52.24c-14.92,16.93-23.68,38.39-19.3,60.84c5.49,27.31,27.95,47.4,51.47,60.59
+                                c66.66,36.46,162.03,39.39,231.87,9.99c6.43,3.33,13.1,6.21,20.06,8.42c13.98,4.48,28.8,6.62,43.54,6.23c0,0,4.97-0.22,4.97-0.22
+                                l4.97-0.41C377.22,210.61,378.49,211.03,380.03,210.99L380.03,210.99z M381.99,211.37c-1.74,0.85-3.82,1.76-5.66,2.22
+                                c0,0-4.98,1.21-4.98,1.21l-5.04,0.99c-8.49,1.4-17.15,2.05-25.78,1.64c-13.96-0.53-27.82-3.48-40.92-8.47c0,0,5-0.06,5-0.06
+                                c-57.36,29.7-130.05,34.84-192.05,17.93c-44.94-12.6-94.68-40.62-108.76-88.37C-1.5,120.1,0.86,99.9,9.68,83.05
+                                C44.25,19,144.56,0.67,211.35,1.97c46.5,0.86,95.52,12.06,131.89,42.64c22.93,19,39.79,47.23,36.17,77.91
+                                c-2.14,19.81-12.59,37.41-26.61,50.98c0,0,0.97-4.98,0.97-4.98c3.79,12.04,10.13,23.33,18.56,32.79c0,0,2.17,2.38,2.17,2.38
+                                l2.27,2.3l2.37,2.22C380.23,209.06,381.21,210.33,381.99,211.37L381.99,211.37z"/>
+                        </g>
+                    </g>
+            </svg>
+            <img src="n-media/broccoli-and-me.jpg" alt="broccoli and me">
+            <h3 id="matters">matters.</h3>
+        </div>
+    </div>
 
-      <p class="selfinfo_script">I am 陳勁安, you can also refer to me as Broccoli.</p>
-      <p class="selfinfo_script">If you find yourself yearning for a captivating design</p>
-      <p class="selfinfo_script"> that transcends expectations, fear not,</p>
-      
-      <p class="selfinfo_script">for I am the White Rabbit to guide you through 
-        a whimsical wonderland of <strong id="sec_self_design">DESIGN.</strong></p>
-    </div>
-  </div>
-
-  <!-- section Design --------------------------------------------- -->
-  <div  id="sec_des" style="height: 10px;"></div>
-  <div class="sec_design" >
-    <h3 class="sections" >Design</h3>
-    <div style="width: 50px;"></div>
-    <div class="design_div">
-      <div class="content_design">
-        <p>My expertise traverses multiple realms,</p>
-        <p>from the artistic realms of Photography and Painting</p> 
-        <p>to the fields of logical domains</p>
-        <p>such as Industrial and Product Design.</p>
-        <p>But that's not all— </p>
-        <p>I possess a dual proficiency in Animation and 3D Modeling.</p>
-        <p>And the last but not least, Website Design</p>
-        <p>just like the page you are watching right now.</p>
-      </div>
-    </div>
-    <div class="video_div">
-      <a href="https://drive.google.com/file/d/13-sv7J7nOCBh6M6pEr88v8m0j_82oSvE/view?usp=sharing">
-        <img id="video_guide" src="media\broccoli design.jpg"/>
-      </a>
-        <p id="watch_video">Learn More</p>
-    </div>
-  </div>
-
-  <!-- section Animation --------------------------------------------- -->
-  <div style="height: 100px;"></div>
-    <p id="now_watch">Now don't watch me, watch the website</p>
-    <p id="let_her">let her show you a magic</p>
-    <p id="amag">a magic of...</p>
-    <div style="height: 100px;"></div>
-    <p id="ani_des">DESIGN</p>
-  <div id="sec_animation" style="height: 10px;"></div>
-  <div style="height: 180px;"></div>
-    <h3 class="sections" >Animation</h3>
-    <p style="color: gray; margin: 0 0 20px 0;">Make your dream, come alive.</p>
-    <div style="margin: 10px;">
-      <video id="trailer" width="400" controls>
-        <source src="media\final pv.webm" type="video/webm">
-      </video>
-    </div>
-    <div class="sec_animation">
-      <img class="pic_preview" src="media\video_clip_ae.jpg"/>
-      <img class="pic_preview" src="media\video_clip_broccoli.jpg"/>
-      <img class="pic_preview" src="media\video_clip_cart.jpg"/>
-      <img class="pic_preview" src="media\video_clip_match19.jpg"/>
-    </div>
-  
-  <!-- section Photography --------------------------------------------- -->
-  <div id="sec_photo" style="height: 10px;"></div>
-  <div style="height: 180px;"></div>
-  <h3 class="sections" >Photography</h3>
-  <p style="color: gray;">Capture the beauty, in any moment.</p>
+    <!-- empatyspace -->
     <div>
-      <img style="width: 100px; margin: 10px;" src="media\56718-camera.gif"/>
+        <svg class="empatySpace" viewBox="0 0 500 500">
+            <g class="red-b">
+                <g>
+                    <circle class="rbd" cx="250" cy="250" r="250"/>
+                </g>
+                <g>
+                    <circle class="rbl" cx="251.1" cy="151.21" r="123.06"/>
+                </g>
+            </g>
+        </svg>
     </div>
-  <div class="g_sec">
-    <img class="pic_preview" src="media\e-31-2.jpg"/>
-    <img class="pic_preview" src="media\e-42-2.jpg"/>
-    <img class="pic_preview" src="media\ep138.jpg"/>
-    <img class="pic_preview" src="media\ep149.jpg"/>
-  </div>
 
-  <!-- section modeling --------------------------------------------- -->
-  <div id="sec_model" style="height: 10px;"></div>
-  <div style="height: 100px;"></div>
-  <div class="g_sec">
-    <h3 class="sections" >Modeling</h3>
+    <!-- Design -->
+    <div id="design" class="main-div">
+        <!-- first title -->
+        <div class="btn">
+            <h2>Design</h2>
+            <svg class="green-bbtn" viewBox="0 0 500 500">
+                <g class="btn-ball-group">
+                    <g>
+                        <circle class="gbd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
+                </g>
+            </svg>
+            <button class="real-btn" onclick="designPage()">Learn More</button>
+        </div>
+        <!-- real content -->
+        <div class="content">
+            <img src="n-media/broccoli-sketch.png" alt="broccoli design sketch">
+            <p id="designP">
+                <strong>Design isn't just about sketching.</strong> it requires a range of skills and methods. 
+                In this guide, I'll share insights into various design processes. 
+                If you're also a designer looking to improve, 
+                I am happy to share the secrets of becoming a seasoned designer with you!</p>
+        </div>
+    </div>
+
+    <!-- empatyspace -->
     <div>
-      <p style="color: gray;">On the basis of imagination, we build</p>
-      <p style="font-size: 20px; color: gray">a better one.</p>
+        <svg class="empatySpace" viewBox="0 0 500 500">
+            <g class="blue-b">
+                <g>
+                    <circle class="bbd" cx="250" cy="250" r="250"/>
+                </g>
+                <g>
+                    <circle class="bbl" cx="250" cy="102.5" r="48.79"/>
+                </g>
+            </g>
+        </svg>
     </div>
 
-    <img id="model_pic" src="media\FINAL POSTER3.jpg"/>
-  </div>
-  <div style="height: 100px;"></div>
-    <!-- section web --------------------------------------------- -->
-    <div id="sec_web" style="height: 1px;"></div>
-    <div style="height: 100px;"></div>
-
-      <div class="webint">
-      <h3 class="sections" >Website</h3>
-        <p style="color: gray;">The magic you are watching right now.</p>
-        <p style="color: gray; font-size: 20px;">And here, is more.</p>
-      </div>
-
-    <div class="webpic">
-      <a href="https://foodcomebuffet.com/">
-      <img id="foodcome" class="inpic" src="media\foodcome.png"/>
-      </a>
-      <a href="https://justbelizz.com/">
-      <img id="belizz" class="inpic"  src="media\belizz.png"/>
-      </a>
+    <!-- Animation -->
+    <div id="animation" class="main-div">
+        <!-- first title -->
+        <div class="btn">
+            <h2>Animation</h2>
+            <svg class="green-bbtn" viewBox="0 0 500 500">
+                <g class="btn-ball-group">
+                    <g>
+                        <circle class="gbd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
+                </g>
+            </svg>
+            <button class="real-btn" onclick="animationPage()">Learn More</button>
+        </div>
+        <!-- real content -->
+        <p id="animationP">Animation is an engaging and creative method to present your ideas. 
+            Learn about organizing a storyboard, capturing the perfect perspective, 
+            and mastering 2D and 3D effects. 
+            Explore the animations I've created and enjoy an immersive experience!</p>
+        <section>
+            <h3>Video clips</h3>
+            <img src="n-media/video_clip_broccoli.jpg" alt="video clips broccoli">
+            <img src="n-media/cart.png" alt="video clips cart">
+            <img src="n-media/mlogo.png" alt="video clips logo">
+        </section>
     </div>
 
-    <div class="webpic">
-      <a href="https://newmatch19.com/project/waroom_lady/">
-      <img id="waroom" class="inpic" src="media\waroom.png"/>
-      </a>
-      <a href="https://summersoig.com/">
-      <img id="sun" class="inpic" src="media\sun.png"/>
-      </a>
+    <!-- empatyspace -->
+    <div>
+        <svg class="empatySpace" viewBox="0 0 500 500">
+            <g class="yellow-b">
+                <g>
+                    <circle class="ybd" cx="250" cy="250" r="250"/>
+                </g>
+                <g>
+                    <circle class="ybl" cx="250" cy="102.5" r="48.79"/>
+                </g>
+            </g>
+        </svg>
     </div>
-    <div style="height: 100px;" id="sec_contact"></div>
-    <!-- contact --------------------------------------------- -->
-    <div class="footer">
-      <h3 class="sections">Contact</h3>
-      <div class="detail">
-        <p class="d_word">Phone:<a class="d_word" href="tel:+886-921826396">+886-921-826-396</a></p>
-        <p class="d_word">Email:<a class="d_word" href="mailto:toby870523@gmail.com">toby870523@gmail.com</a></p>
-        <p class="d_word">Instgram:<a class="d_word" href="https://www.instagram.com/huyohiya/">@huyohiya</a></p>
-      </div>
+
+    <!-- Photography -->
+    <div id="photography" class="main-div">
+        <!-- first title -->
+        <div class="btn">
+            <h2>Photography</h2>
+            <svg class="green-bbtn" viewBox="0 0 500 500">
+                <g class="btn-ball-group">
+                    <g>
+                        <circle class="gbd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
+                </g>
+            </svg>
+            <button class="real-btn" onclick="photographyWeb()">Learn More</button>
+        </div>
+        <!-- real content -->
+        <p id="photoP"><strong>Did you know?</strong>
+            I'm not only a designer but also an experienced photographer. 
+            From commercial shoots to captivating portraits, 
+            I'm now diving into the world of wedding photography! 
+            Seeking a photographer for your special day? 
+            Explore my portfolio:<a href="https://broccolidesign.myportfolio.com/">https://broccolidesign.myportfolio.com/</a>. 
+            Let's create timeless memories together!</p>
+        <section>
+            <h3>Photos</h3>
+            <img src="n-media/street.png" alt="street pic">
+            <img src="n-media/girl.png" alt="girl pic">
+            <img src="n-media/man.png" alt="man pic">
+        </section>
     </div>
+
+    <!-- empatyspace -->
+    <div>
+        <svg class="empatySpace" viewBox="0 0 500 500">
+            <g class="green-b">
+                <g>
+                    <circle class="gbd" cx="250" cy="250" r="250"/>
+                </g>
+                <g>
+                    <circle class="gbl" cx="250" cy="102.5" r="48.79"/>
+                </g>
+            </g>
+        </svg>
+    </div>
+
+    <!-- Website -->
+    <div id="website" class="main-div">
+        <!-- first title -->
+        <div class="btn">
+            <h2>Website</h2>
+            <svg class="green-bbtn" viewBox="0 0 500 500">
+                <g class="btn-ball-group">
+                    <g>
+                        <circle class="gbd" cx="250" cy="250" r="250"/>
+                    </g>
+                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
+                </g>
+            </svg>
+            <button class="real-btn" onclick="aboutmePage()">Learn More</button>
+        </div>
+        <!-- real content -->
+        <div id="web-btns">
+            <button onclick="summerWeb()"><span>Summer Orchid</span><img src="n-media/sun.png" alt="summer web pic"></button>
+            <button onclick="barWeb()"><span>Waroom Ladies</span><img src="n-media/bar.png" alt="bar web pic"></button>
+            <button onclick="foodWeb()"><span>Foodcome</span><img src="n-media/food.png" alt="food web pic"></button>
+        </div>
+        <p><strong>Web development is my cornerstone in this fast-evolving world.</strong> 
+            Embracing the ever-changing realms of coding and the internet is an exciting journey. 
+            Through years of relentless learning, I've proudly become a full-stack developer. 
+            Whether it's PHP, HTML, Vue, or WordPress, 
+            I've empowered over 10 companies to craft their unique online presence in various formats! 
+            Let's bring your website vision to life together!</p>
+    </div>
+
+
+    
+    <footer>
+        <!-- Contact -->
+            <!-- first title -->
+            <h2>Contact Me</h2>
+            <!-- real content -->
+            <div>
+                <!-- phone -->
+                <div>
+                    <svg width="5%" viewBox="0 0 512 512"><path opacity="1" d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/></svg>
+                    <h4><a href="tel:+13439884869">+1 343 988 4869</a></h4>
+                </div>
+                
+                <!-- email -->
+                <div>
+                    <svg width="5%" viewBox="0 0 512 512"><path opacity="1" d="M64 208.1L256 65.9 448 208.1v47.4L289.5 373c-9.7 7.2-21.4 11-33.5 11s-23.8-3.9-33.5-11L64 255.5V208.1zM256 0c-12.1 0-23.8 3.9-33.5 11L25.9 156.7C9.6 168.8 0 187.8 0 208.1V448c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V208.1c0-20.3-9.6-39.4-25.9-51.4L289.5 11C279.8 3.9 268.1 0 256 0z"/></svg>
+                    <h4><a href="mailto:chen0969@algonquinlive.com">chen0969@algonquinlive.com</a></h4>
+                </div>
+                
+                <!-- linkdin -->
+                <div>
+                    <svg width="5%" viewBox="0 0 512 512"><path opacity="1" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                    <h4><a href="https://www.linkedin.com/in/broccolidesign/">https://www.linkedin.com/in/broccolidesign/</a></h4>
+                </div>
+            </div>
+        <p>© 2024 Jing-An Chen. All rights reserved.</p>
+
+        <!-- scripts will move to js file later -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script>
+            function aboutmePage(){window.open("aboutme.html");}
+            function designPage(){window.open("design.html");}
+            function animationPage(){window.open("animation.html");}
+            function photographyWeb(){window.open("https://broccolidesign.myportfolio.com/");}
+            function summerWeb(){window.open("https://summersoig.com/");}
+            function foodWeb(){window.open("https://foodcomebuffet.com/");}
+            function barWeb(){window.open("https://newmatch19.com/project/waroom_lady/");}
+
+            $(window).scroll(function() {
+            bannerBall("svgB", "0.6", "1");
+            bannerBall("svgY", "1.1", "-1");
+            bannerBall("svgY2", "0.8", "0");
+            bannerBall("svgR", "0.7", "-1");
+            writerFun("introP")
+            writerFun("designP");
+            writerFun("animationP");
+            writerFun("photoP");
+            });
+
+            function writerFun(target) {
+            const targetP = $("#" + target);
+            let scrollD = $(window).scrollTop();
+            const targetPosition = targetP.offset().top;
+            const windowHeight = $(window).height();
+            
+            if (scrollD >= targetPosition - windowHeight) {
+                targetP.addClass("typeAct");
+            }
+            }
+
+            
+            function bannerBall(targetBall, amount, layer){
+            let scrollD = $(window).scrollTop();
+            const windowHeight = $(window).height();
+            const bannerHeight = $("#bBanner").offset().top + windowHeight;
+            const theBall = $("#" + targetBall);
+            const endDrop = $("#website").offset().top - windowHeight;
+            let ballDrop = scrollD * amount;
+            theBall.css("transition", "1s");
+            if(endDrop > scrollD && scrollD > bannerHeight){
+                theBall.css("transform", "translateY(" + ballDrop + "px)");
+                theBall.css("z-index", layer);
+            }
+            else if(scrollD > endDrop){
+                theBall.css("transform", "translateY(" + endDrop + "px)");
+            }
+            else{
+                theBall.css("transform", "translateY(0px)");
+            }
+            }
+
+        </script>
+    </footer>
 </body>
 </html>
