@@ -34,7 +34,7 @@
     .green-b {
         @include turningBalls(0s);
         // Additional styling for .green-b if needed
-        @include green-sets;
+        @include special-green;
         .gbd {@include ballsOrigin;}
         .gbl {@include ballsOrigin;}
         &:hover{
@@ -77,7 +77,7 @@
 
 // swing balls
     .green-bs{
-        @include green-sets;
+        @include special-green;
         .gbd {@include ballsOrigin;}
         .gbl {@include ballsOrigin;}
         &:hover{
@@ -88,14 +88,16 @@
 
 // btn balls
     .green-bbtn{
-        @include green-sets;
+        @include special-green;
         .gbd {@include ballsOrigin;}
         .gbl {@include ballsOrigin;}
     }
 
 // side line
+.nav-word{font-family: 'Righteous', sans-serif; font-size: 2rem;}
+.nav-stick{fill:#FFFFFF;stroke:#49A84C;stroke-width:5;stroke-miterlimit:10; z-index: -1;}
     .sideLine-up{
-        @include green-sets;
+        @include special-green;
         position: fixed;
         bottom: 0px;
         right: 5%;
@@ -105,11 +107,33 @@
     }
 
     .sideLine-down{
-        @include green-sets;
+        @include special-green;
         position: fixed;
         top: 0px;
         left: 5%;
         .lineDown{
             animation: stick-in-down 1s forwards;
         }
+        
+        .gBtns{
+            text a{fill: $green-light;}
+            cursor: pointer;
+            @keyframes tagIn {
+                0%{transform: scaleX(0); opacity: 0;}
+                50%{transform: scaleX(0.9); opacity: 0;}
+                100%{transform: scaleX(1); opacity: 1;}
+            }
+            .altTags{transform: scaleX(0); opacity: 0; }
+            &:hover{
+                .altTags{animation: tagIn 0.1s forwards;}
+            }
+        }
+
+
     }
+
+    @media screen and (max-width: 480px) {
+        .sideLine-up{display: none;}
+        .sideLine-down{transform: scale(1.3);}
+      }
+      

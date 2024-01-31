@@ -6,7 +6,9 @@
 }
 // broccoli logo
 .broccoli-logo{
-    @include green-sets; @include blue-sets; @include red-sets; @include yellow-sets; 
+    @include blue-sets; @include red-sets; @include yellow-sets; 
+    // special color sets
+    @include special-green;
 
     .b-body, .b-g, .b-b, .b-r, .b-y{opacity: 0;}
 

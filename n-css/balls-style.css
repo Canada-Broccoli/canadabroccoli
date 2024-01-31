@@ -207,6 +207,19 @@
   opacity: 0.5;
 }
 
+.nav-word {
+  font-family: "Righteous", sans-serif;
+  font-size: 2rem;
+}
+
+.nav-stick {
+  fill: #FFFFFF;
+  stroke: #49A84C;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  z-index: -1;
+}
+
 .sideLine-up {
   position: fixed;
   bottom: 0px;
@@ -235,4 +248,40 @@
 }
 .sideLine-down .lineDown {
   animation: stick-in-down 1s forwards;
+}
+.sideLine-down .gBtns {
+  cursor: pointer;
+}
+.sideLine-down .gBtns text a {
+  fill: #D0FFCD;
+}
+@keyframes tagIn {
+  0% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scaleX(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+.sideLine-down .gBtns .altTags {
+  transform: scaleX(0);
+  opacity: 0;
+}
+.sideLine-down .gBtns:hover .altTags {
+  animation: tagIn 0.1s forwards;
+}
+
+@media screen and (max-width: 480px) {
+  .sideLine-up {
+    display: none;
+  }
+  .sideLine-down {
+    transform: scale(1.3);
+  }
 }/*# sourceMappingURL=balls-style.css.map */

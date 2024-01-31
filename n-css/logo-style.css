@@ -66,12 +66,6 @@
     width: 20vw;
   }
 }
-.broccoli-logo .gbd {
-  fill: #49A84C;
-}
-.broccoli-logo .gbl {
-  fill: #D0FFCD;
-}
 .broccoli-logo .bbd {
   fill: #4C86F9;
 }
@@ -89,6 +83,12 @@
 }
 .broccoli-logo .ybl {
   fill: #F6FFA7;
+}
+.broccoli-logo .gbd {
+  fill: #49A84C;
+}
+.broccoli-logo .gbl {
+  fill: #D0FFCD;
 }
 .broccoli-logo .b-body, .broccoli-logo .b-g, .broccoli-logo .b-b, .broccoli-logo .b-r, .broccoli-logo .b-y {
   opacity: 0;

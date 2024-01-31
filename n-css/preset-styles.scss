@@ -5,9 +5,11 @@
 // font-family: 'Montserrat Alternates', sans-serif;
 // font-family: 'Righteous', sans-serif;
 // colorsheet
-$green-bg: #49A84C;
+$green-bg: #2A5A32;
+$special-g-bg: #49A84C;
 $green-light: #D0FFCD;
 @mixin green-sets{.gbd { fill: $green-bg;} .gbl { fill: $green-light;}}
+@mixin special-green{.gbd{fill: $special-g-bg} .gbl{fill: $green-light}}
 
 $blue-bg: #4C86F9;
 $blue-light: #4CE4F9;
