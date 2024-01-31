@@ -44,8 +44,8 @@ p{
     .green-bbtn{grid-column: 2/3; grid-row: 1/2; width: 30%; transition: 0.5s;}
     .real-btn{grid-column: 2/3; grid-row: 1/2; width: min-content; height: min-content;
         font-family: 'Righteous', sans-serif; font-size: 1.5rem;
-        text-shadow: 1px 1px 3px $dark-gray, 0 0 25px $green-light, 0 0 5px $green-bg;
-        color: $salt-white; background-color:transparentize($color: #000000, $amount: 1);
+        text-shadow: 1px 1px 3px $salt-white, 0 0 25px $green-light, 0 0 5px $green-bg;
+        color: $green-bg; background-color:transparentize($color: $salt-white, $amount: 1);
         border-style: none;
         z-index: 2;
         cursor: pointer;
