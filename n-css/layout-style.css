@@ -67,6 +67,34 @@
     width: 20vw;
   }
 }
+@keyframes open {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(30);
+  }
+  60% {
+    transform: scale(30);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes roll {
   from {
     transform: rotate(0deg);
@@ -132,6 +160,34 @@
   }
   to {
     width: 20vw;
+  }
+}
+@keyframes open {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(30);
+  }
+  60% {
+    transform: scale(30);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
   }
 }
 .green-b {
@@ -747,6 +803,26 @@ footer p {
   width: inherit;
 }
 
+.opening {
+  position: fixed;
+  left: -50px;
+  top: -50px;
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+  animation: open 1s forwards;
+}
+.opening .gbd {
+  fill: #49A84C;
+}
+.opening .gbl {
+  fill: #D0FFCD;
+}
+
+.showing {
+  animation: show 1s forwards;
+}
+
 @media screen and (max-width: 480px) {
   body {
     overflow-x: hidden;
@@ -790,5 +866,20 @@ footer p {
     align-items: center;
     word-wrap: break-word;
     word-break: break-all;
+  }
+  .opening {
+    position: fixed;
+    left: -70px;
+    top: -70px;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    animation: open 1s forwards;
+  }
+  .opening .gbd {
+    fill: #49A84C;
+  }
+  .opening .gbl {
+    fill: #D0FFCD;
   }
 }/*# sourceMappingURL=layout-style.css.map */

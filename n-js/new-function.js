@@ -1,7 +1,8 @@
-function aboutmePage(){window.open("aboutme.html");}
+            function aboutmePage(){window.open("aboutme.html");}
             function designPage(){window.open("design.html");}
             function animationPage(){window.open("animation.html");}
-            function photographyWeb(){window.open("https://broccolidesign.myportfolio.com/");}
+            function webPage(){window.open("web.html");}
+            function photographyWeb(){window.open("https://broccolidesign.myportfolio.com/commercial-photo");}
             function summerWeb(){window.open("https://summersoig.com/");}
             function foodWeb(){window.open("https://foodcomebuffet.com/");}
             function barWeb(){window.open("https://newmatch19.com/project/waroom_lady/");}

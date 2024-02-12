@@ -93,4 +93,80 @@
   100% {
     opacity: 1;
   }
-}/*# sourceMappingURL=preset-styles.css.map */
+}
+h1 {
+  font-family: "Limelight", sans-serif;
+  color: #212227;
+}
+
+h2 {
+  font-family: "Limelight", sans-serif;
+  color: #212227;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  word-spacing: 0.1em;
+}
+
+a {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #0746C5;
+}
+
+body {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FAF9F9;
+  overflow-x: hidden;
+}
+
+main {
+  width: 80%;
+}
+
+div {
+  width: 80%;
+}
+
+.working {
+  width: 50%;
+}
+
+.opening {
+  position: fixed;
+  left: -50px;
+  top: -50px;
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+  animation: open 1s forwards;
+}
+.opening .gbd {
+  fill: #49A84C;
+}
+.opening .gbl {
+  fill: #D0FFCD;
+}
+
+.showing {
+  animation: show 1s forwards;
+}
+
+footer h4 {
+  font-size: 1rem;
+}
+footer a {
+  font-size: 1rem;
+}/*# sourceMappingURL=sub-page.css.map */
