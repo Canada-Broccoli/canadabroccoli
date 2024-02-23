@@ -66,6 +66,34 @@
     width: 20vw;
   }
 }
+@keyframes open {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(30);
+  }
+  60% {
+    transform: scale(30);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .green-b {
   transform-origin: 50% 50%;
   animation: roll 2s infinite;

@@ -66,6 +66,34 @@
     width: 20vw;
   }
 }
+@keyframes open {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(30);
+  }
+  60% {
+    transform: scale(30);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 h1, h2, h3, h4, h5, h6, p, abbr, i, em {
   color: #2A5A32;
 }
