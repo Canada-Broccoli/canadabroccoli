@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- GA code -->
-    <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-27HXTW4BCM"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'G-27HXTW4BCM');
-        </script>
-    <!-- SEOs -->
+<head>
+        <!-- GA code -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-27HXTW4BCM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-27HXTW4BCM');
+    </script>
+<!-- SEOs -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Broccoli Design - Jing-An Chen's Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="n-media/b-pose2-icon.png">
+    <title>Jing-An Chen</title>
+    <!-- metas -->
+    <link rel="icon" type="image/x-icon" href="media/jingan-icon.svg">
     <meta name="description" content="Explore Jing-An Chen's diverse portfolio showcasing design, animation, photography, and web development expertise.">
     <meta name="keywords" content="design, animation, photography, web development, Broccoli Design, Jing-An Chen, portfolio">
     <meta name="author" content="Jing-An Chen">
@@ -35,505 +37,105 @@
     <meta name="twitter:description" content="Explore Jing-An Chen's diverse portfolio showcasing design, animation, photography, and web development expertise.">
     <meta name="twitter:image" content="url-to-your-thumbnail-image.jpg">
 
-    <!-- my styles -->
-    <link rel="stylesheet" href="n-css/balls-style.css">
-    <link rel="stylesheet" href="n-css/fonts-style.css">
-    <link rel="stylesheet" href="n-css/logo-style.css">
-    <link rel="stylesheet" href="n-css/layout-style.css">
+    <!-- styles -->
+    <!-- NES library -->
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet">
+    <!-- animate library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- bootstrap library -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- my code -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
+
 <body>
-    <header>
-        <!-- side line effect -->
-        <div>
-            <!-- side line up -->
-            <svg class="sideLine-up" width="5%" viewBox="0 0 435 800">
-                <g class="lineUP">
-                    <rect y="75" class="gbd" width="150" height="725"/>
-                    <g>
-                        <circle class="gbd" cx="75" cy="75" r="75"/>
-                    </g>
-                    <g>
-                        <circle class="gbl" cx="96.5" cy="50" r="28.19"/>
-                    </g>
+    <!-- svg background -->
+    <div class="frontBg">
+        <svg viewBox="0 0 1920 1080">
+                <g id="lGreen">
+                    <circle fill="#49A44C" cx="959.9" cy="550.3" r="429.1"/>
                 </g>
-            </svg>
-            <!-- side line down -->
-            <svg class="sideLine-down" width="15%" viewBox="0 0 435 800">
-                <g class="lineDown">
-                    <g id="lineDown_00000150810778254783785060000002579432407662387624_">
-                        <g id="bar">
-                            <g>
-                                <rect class="gbd" width="150" height="725"/>
-                                <g>
-                                    <circle class="gbd" cx="75" cy="725" r="75"/>
-                                </g>
-                                <g>
-                                    
-                                        <ellipse transform="matrix(9.968694e-02 -0.995 0.995 9.968694e-02 -698.0858 728.4152)" class="gbl" cx="53.5" cy="750" rx="28.2" ry="28.2"/>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
+                <g id="blue">
+                    <circle fill="#4C82F5" cx="158.8" cy="921.2" r="158.8"/>
                 </g>
-                <g id="gHome" class="gBtns">
-                    <g id="althome" class="altTags">
-                        <path class="nav-stick" d="M262.8,79.9H150V26.2h112.8c14.8,0,26.8,12,26.8,26.8l0,0C289.6,67.9,277.6,79.9,262.8,79.9z"/>
-                        <text transform="matrix(1 0 0 1 161.4029 64.3625)" class="nav-word ">Home</text>
-                    </g>
-                    <text transform="matrix(1 0 0 1 75.0002 64.3625)" class="gbl nav-word "><a href="#">Ho</a></text>
+                <g id="sBlue">
+                    <circle fill="#4C82F5" cx="367.8" cy="840.2" r="105"/>
                 </g>
-                <g id="gAboutMe" class="gBtns">
-                    <g id="altaboutme" class="altTags">
-                        <path class="nav-stick" d="M344.1,171.6H150V118h194.1c14.8,0,26.8,12,26.8,26.8l0,0C370.9,159.6,358.9,171.6,344.1,171.6z"/>
-                        <text transform="matrix(1 0 0 1 161.4029 156.4529)" class="nav-word ">About Me</text>
-                    </g>
-                    <text transform="matrix(1 0 0 1 75.0002 156.4529)" class="gbl nav-word "><a href="#about">Ab</a></text>
+                <g id="red">
+                    <circle fill="#DD422E" cx="1705.9" cy="864.4" r="216.4"/>
                 </g>
-                <g id="gDesign" class="gBtns">
-                    <g id="altdesign" class="altTags">
-                        <path class="nav-stick" d="M283.2,263.3H150v-53.7h133.2c14.8,0,26.8,12,26.8,26.8l0,0C310.1,251.3,298,263.3,283.2,263.3z"/>
-                        <text transform="matrix(1 0 0 1 161.4029 248.5442)" class="nav-word ">Design</text>
-                    </g>
-                    <text transform="matrix(1 0 0 1 75.0002 248.5442)" class="gbl nav-word "><a href="#design">De</a></text>
+                <g id="yellow">
+                    <circle fill="#F2FFA3" cx="1645" cy="275" r="275"/>
                 </g>
-                <g id="gAnimation" class="gBtns">
-                    <g id="altanimation" class="altTags">
-                        <path class="nav-stick" d="M347.4,355H150v-53.7h197.4c14.8,0,26.8,12,26.8,26.8l0,0C374.2,343,362.2,355,347.4,355z"/>
-                        <text transform="matrix(1 0 0 1 164.5811 340.6348)" class="nav-word ">Animation</text>
-                    </g>
-                    <text transform="matrix(1 0 0 1 74.9999 340.6348)" class="gbl nav-word "><a href="#animation">An</a></text>
+                <g id="white">
+                    <circle fill="#F8F7F7" cx="184" cy="184" r="184"/>
                 </g>
-                <g id="gPhotography" class="gBtns">
-                    <g id="altphotography" class="altTags">
-                        <path class="nav-stick" d="M406.1,446.7H150V393h256.1c14.8,0,26.8,12,26.8,26.8l0,0C433,434.7,421,446.7,406.1,446.7z"/>
-                        <text transform="matrix(1 0 0 1 164.5811 432.7253)" class="nav-word ">Photography</text>
-                    </g>
-                    <text transform="matrix(1 0 0 1 75.0002 432.7253)" class="gbl nav-word "><a href="#photography">Ph</a></text>
+                <g id="sWhite">
+                    <circle fill="#F8F7F7" cx="1416" cy="747" r="65.2"/>
                 </g>
-                <g id="gWebsite" class="gBtns">
-                    <g id="altwebsite" class="altTags">
-                        <path class="nav-stick" d="M307.5,538.4H150v-53.7h157.5c14.8,0,26.8,12,26.8,26.8l0,0C334.4,526.4,322.3,538.4,307.5,538.4z"/>
-                        <text transform="matrix(1 0 0 1 164.5811 524.8162)" class="nav-word ">Website</text>
-                    </g>
-                    <text transform="matrix(1 0 0 1 75.0002 524.8164)" class="gbl nav-word "><a href="#website">We</a></text>
+                <g id="sYellow">
+                    <circle fill="#F2FFA3" cx="484.5" cy="329.8" r="116.4"/>
                 </g>
-                <g id="gContact" class="gBtns">
-                    <g id="altcontact" class="altTags">
-                        <path class="nav-stick" d="M307.5,630.1H150v-53.7h157.5c14.8,0,26.8,12,26.8,26.8l0,0C334.4,618.1,322.3,630.1,307.5,630.1z"/>
-                        <text transform="matrix(1 0 0 1 164.5811 616.907)" class="nav-word ">Contact</text>
-                    </g>
-                    <text transform="matrix(1 0 0 1 75.0002 616.9067)" class="gbl nav-word "><a href="#contact">Co</a></text>
+                <g id="dGreen">
+                    <circle fill="#212227" cx="50%" cy="50%" r="250"/>
                 </g>
-            </svg>
-        </div>
+                <circle id="cWhite" fill="#F8F7F7" cx="50%" cy="50%" r="400"/>
+        </svg>
+    </div>
+    <header class="container row m-5 justify-content-center 
+    animate__animated animate__fadeIn animate__delay-1s">
+            <p class="row">hello, I am</p>
+            <h1 class="row text-warning text-center">JING-AN CHEN</h1>
+            <h2 id="slogan" class="text-white">A designer who has code in his heart</h2>
     </header>
-    <!-- banner div -->
-        <div id="bBanner">
-            <h1 id="b-h1">BROCCOLI</h1>
-            <h2 id="b-h2">DESIGN</h2>
-            <!-- green ball -->
-            <svg id="svgG" viewBox="0 0 500 500">
-                <g class="green-b">
-                    <g>
-                        <circle class="gbd" cx="250" cy="250" r="250"/>
-                    </g>
-                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
-                </g>
-            </svg>
-            <svg id="svgG2" viewBox="0 0 500 500">
-                <g class="green-b">
-                    <g>
-                        <circle class="gbd" cx="250" cy="250" r="250"/>
-                    </g>
-                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
-                </g>
-            </svg>
-            <!-- yellow ball -->
-            <svg id="svgY" viewBox="0 0 500 500">
-                <g class="yellow-b">
-                    <g>
-                        <circle class="ybd" cx="250" cy="250" r="250"/>
-                    </g>
-                    <g>
-                        <circle class="ybl" cx="250" cy="102.5" r="48.79"/>
-                    </g>
-                </g>
-            </svg>
-            <svg id="svgY2" viewBox="0 0 500 500">
-                <g class="yellow-b">
-                    <g>
-                        <circle class="ybd" cx="250" cy="250" r="250"/>
-                    </g>
-                    <g>
-                        <circle class="ybl" cx="250" cy="102.5" r="48.79"/>
-                    </g>
-                </g>
-            </svg>
-            <!-- red ball -->
-            <svg id="svgR" viewBox="0 0 500 500">
-                <g class="red-b">
-                    <g>
-                        <circle class="rbd" cx="250" cy="250" r="250"/>
-                    </g>
-                    <g>
-                        <circle class="rbl" cx="251.1" cy="151.21" r="123.06"/>
-                    </g>
-                </g>
-            </svg>
-            <svg id="svgR2" viewBox="0 0 500 500">
-                <g class="red-b">
-                    <g>
-                        <circle class="rbd" cx="250" cy="250" r="250"/>
-                    </g>
-                    <g>
-                        <circle class="rbl" cx="251.1" cy="151.21" r="123.06"/>
-                    </g>
-                </g>
-            </svg>
-            <!-- blue ball -->
-            <svg id="svgB" viewBox="0 0 500 500">
-                <g class="blue-b">
-                    <g>
-                        <circle class="bbd" cx="250" cy="250" r="250"/>
-                    </g>
-                    <g>
-                        <circle class="bbl" cx="250" cy="102.5" r="48.79"/>
-                    </g>
-                </g>
-            </svg>
-            <svg id="svgB2" viewBox="0 0 500 500">
-                <g class="blue-b">
-                    <g>
-                        <circle class="bbd" cx="250" cy="250" r="250"/>
-                    </g>
-                    <g>
-                        <circle class="bbl" cx="250" cy="102.5" r="48.79"/>
-                    </g>
-                </g>
-            </svg>
-    
-            <!-- broccoli logo -->
-            <svg id="bLogo" class="broccoli-logo" viewBox="0 0 800 800">
-                <g class="b-body">
-                    <path class="gbd" d="M565.38,702.16V702c-40.49-22.3-67.93-65.41-67.93-114.9c0-38.07,16.22-72.33,42.14-96.28
-                        c-49.92-14.93-86.31-61.24-86.31-116.01c0-47.84,27.72-89.21,67.98-108.87c-7.78-10.1-12.41-22.76-12.41-36.47
-                        c0-17.11,7.17-32.53,18.67-43.44c-1.93-22.53-3.92-45.04-5.93-67.49c-2.21-24.62-25.86-41.5-49.87-35.55
-                        c-153.5,38.02-300.13,78.2-438.83,120.13c-16.76,5.06-28.36,20.29-28.69,37.79C1.4,385.37,0,530.91,0,677.49v0.41
-                        c0,22.25,18.06,40.31,40.31,40.31h510.04C559.04,718.2,565.96,710.85,565.38,702.16z M136.82,261.06
-                        c-9.23,14.01-25.58,19.53-36.54,12.31c-10.96-7.2-12.36-24.41-3.1-38.45c9.23-14.01,25.58-19.53,36.54-12.31
-                        C144.68,229.81,146.05,247.02,136.82,261.06z M189.79,352.84c-31.58-3.99-55.72-28.89-38.48-60.5
-                        c6.74-12.03,16.81-21.18,28.15-28.38c5.11-3.23,9.89-6.94,13.83-11.49c5.54-6.41,13.55-11.39,23.07-13.66
-                        c21.11-5.01,41.63,5.19,45.8,22.68c2.09,8.77-0.28,18.26-6.48,26.02c-5.8,7.25-14.39,12.51-24.21,14.83
-                        c-3.64,0.89-7.32,1.3-10.94,1.3c-6.13,0-12.05-1.22-17.34-3.66c-9.05-4.15-15.41-11.55-17.5-20.32c-0.03-0.05-0.03-0.13-0.05-0.2
-                        c-2.24,1.25-4.45,2.54-6.56,3.99c-33.54,22.51-27.08,53.63,11.98,62.86c24.52,5.59,50.79,1.88,73.75-8.75
-                        C242.53,350.35,215.58,356.5,189.79,352.84z M367.86,223.04c-11.65,11.37-33.85,7.53-49.62-8.6
-                        c-15.79-16.12-19.15-38.43-7.53-49.79c11.62-11.39,33.85-7.53,49.62,8.6C376.1,189.37,379.48,211.67,367.86,223.04z"/>
-                </g>
-                <g class="b-g">
-                    <g>
-                        <g>
-                            <circle class="gbd" cx="581.84" cy="229.95" r="52.02"/>
-                        </g>
-                        <circle class="gbl" cx="591.95" cy="221.94" r="27.72"/>
-                    </g>
-                </g>
-                <g class="b-b">
-                    <g>
-                        <g>
-                            <circle class="bbd" cx="582.29" cy="373.95" r="106.34"/>
-                        </g>
-                        <g>
-                            <circle class="bbl" cx="619.38" cy="335.29" r="26.41"/>
-                        </g>
-                    </g>
-                </g>
-                <g class="b-r">
-                    <g>
-                        <g>
-                            <circle class="rbd" cx="708.41" cy="442.95" r="89.22"/>
-                        </g>
-                        <g>
-                            <circle class="rbl" cx="724" cy="418.13" r="39.79"/>
-                        </g>
-                    </g>
-                </g>
-                <g class="b-y">
-                    <g>
-                        <g>
-                            <circle class="ybd" cx="632.5" cy="588.95" r="118.05"/>
-                        </g>
-                        <g>
-                            <circle class="ybl" cx="670.14" cy="554.36" r="34.64"/>
-                        </g>
-                    </g>
-                </g>
-            </svg>
-        </div>
-
-    <!-- intro -->
-    <div class="main-div">
-        <p id="introP">
-            <strong>Welcome to Broccoli Design!<br></strong>
-            A web portfolio made by me, <strong>Jing-An Chen</strong>, 
-            A versatile and innovative designer.<br>
-            <br>
-            Explore my expertise in photography, web development, and more on this platform.
-            Humor is a cornerstone of my design philosophy, injecting a vibrant and engaging energy into my creations. Dive into this meticulously crafted website to experience my unique approach.<br>
-            <br>
-            Enjoy the diverse range of design works that I've dedicated extensive effort to develop. 
-            And discover how 'Broccoli Design' brings creativity and humor together in design excellence.
-        </p>
-    </div>
-    <!-- About Me -->
-    <div id="about" class="main-div">
-        <!-- link to about me page -->
-        <h2>About Me</h2>
-        <p id="aboutP">
-            <strong>Name:</strong> Jing-An Chen.<br>
-            A designer who developed multiple skills through years of work in the design industry.<br>
-            <strong>Gender:</strong> Male.<br>
-            <strong>Age:</strong> 26.<br>
-            <strong>Skill:</strong> Design, Photography, Animation, Web-Development, Marketing.<br>
-            <strong>Education:</strong> <img src="n-media/nkust.jpeg" alt="nkust school logo">NKUST. / <img src="n-media/ac.png" alt="algonquin college school logo">AC.<br>
-            <strong>Interist:</strong> Bodybuilding.<br>
-            <strong>Idol:</strong> Richard Sapper.<br>
-            <strong>Slogan:</strong> When it comes to design, humor matters.<br>
-            <strong>Want to know why I become multi-discipline designer? <a href="aboutme.html">Click to learn more!</a></strong>
-        </p>
-        <div id="slogan">
-            <h3 id="whenit">When it comes to design</h3>
-            <svg id="humor" viewBox="0 0 382 241">
-                <text transform="matrix(1 0 0 1 44.0941 138.6953)" class="green-humor">HUMOR</text>
-                    <g>
-                        <g>
-                            <path class="green" d="M380.03,210.99c-0.88-0.33-1.72-0.3-2.48-0.68c0,0-2.81-1.84-2.81-1.84c-13.94-9.53-24.6-23.43-31.06-38.99
-                                c24.74-28.23,29.67-62.82,5.84-93.3c-13.69-17.64-33.25-30.19-53.2-39.87C249.23,14.2,195.31,4.98,143.62,13.13
-                                c-39.01,6.34-78.71,22.23-105.39,52.24c-14.92,16.93-23.68,38.39-19.3,60.84c5.49,27.31,27.95,47.4,51.47,60.59
-                                c66.66,36.46,162.03,39.39,231.87,9.99c6.43,3.33,13.1,6.21,20.06,8.42c13.98,4.48,28.8,6.62,43.54,6.23c0,0,4.97-0.22,4.97-0.22
-                                l4.97-0.41C377.22,210.61,378.49,211.03,380.03,210.99L380.03,210.99z M381.99,211.37c-1.74,0.85-3.82,1.76-5.66,2.22
-                                c0,0-4.98,1.21-4.98,1.21l-5.04,0.99c-8.49,1.4-17.15,2.05-25.78,1.64c-13.96-0.53-27.82-3.48-40.92-8.47c0,0,5-0.06,5-0.06
-                                c-57.36,29.7-130.05,34.84-192.05,17.93c-44.94-12.6-94.68-40.62-108.76-88.37C-1.5,120.1,0.86,99.9,9.68,83.05
-                                C44.25,19,144.56,0.67,211.35,1.97c46.5,0.86,95.52,12.06,131.89,42.64c22.93,19,39.79,47.23,36.17,77.91
-                                c-2.14,19.81-12.59,37.41-26.61,50.98c0,0,0.97-4.98,0.97-4.98c3.79,12.04,10.13,23.33,18.56,32.79c0,0,2.17,2.38,2.17,2.38
-                                l2.27,2.3l2.37,2.22C380.23,209.06,381.21,210.33,381.99,211.37L381.99,211.37z"/>
-                        </g>
-                    </g>
-            </svg>
-            <img src="n-media/broccoli-and-me.jpg" alt="broccoli and me">
-            <h3 id="matters">matters.</h3>
-        </div>
-        <div class="btn">
-            <svg class="green-bbtn" viewBox="0 0 500 500">
-                <g class="btn-ball-group">
-                    <g>
-                        <circle class="gbd" cx="250" cy="250" r="250"/>
-                    </g>
-                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
-                </g>
-            </svg>
-            <button class="real-btn" onclick="aboutmePage()">Learn More</button>
-        </div>
-    </div>
-
-    <!-- empatyspace -->
-    <div>
-        <svg class="empatySpace" viewBox="0 0 500 500">
-            <g class="red-b">
-                <g>
-                    <circle class="rbd" cx="250" cy="250" r="250"/>
-                </g>
-                <g>
-                    <circle class="rbl" cx="251.1" cy="151.21" r="123.06"/>
-                </g>
-            </g>
-        </svg>
-    </div>
-
-    <!-- Design -->
-    <div id="design" class="main-div">
-        <!-- real content -->
-        <h2>Design</h2>
-        <div class="content">
-            <img src="n-media/broccoli-sketch.png" alt="broccoli design sketch">
-            <p id="designP">
-                <strong>Design isn't just about sketching.</strong> it requires a range of skills and methods. 
-                In this guide, I'll share insights into various design processes. 
-                If you're also a designer looking to improve, 
-                I am happy to share the secrets of becoming a seasoned designer with you!</p>
-                <div class="btn">
-                    <svg class="green-bbtn" viewBox="0 0 500 500">
-                        <g class="btn-ball-group">
-                            <g>
-                                <circle class="gbd" cx="250" cy="250" r="250"/>
-                            </g>
-                            <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
-                        </g>
-                    </svg>
-                    <button class="real-btn" onclick="designPage()">Learn More</button>
-                </div>
-        </div>
-    </div>
-
-    <!-- empatyspace -->
-    <div>
-        <svg class="empatySpace" viewBox="0 0 500 500">
-            <g class="blue-b">
-                <g>
-                    <circle class="bbd" cx="250" cy="250" r="250"/>
-                </g>
-                <g>
-                    <circle class="bbl" cx="250" cy="102.5" r="48.79"/>
-                </g>
-            </g>
-        </svg>
-    </div>
-
-    <!-- Animation -->
-    <div id="animation" class="main-div">
-        <!-- first title -->
-        <h2>Animation</h2>
-        <!-- real content -->
-        <p id="animationP">Animation is an engaging and creative method to present your ideas. 
-            Learn about organizing a storyboard, capturing the perfect perspective, 
-            and mastering 2D and 3D effects. 
-            Explore the animations I've created and enjoy an immersive experience!</p>
-        <div class="section">
-            <img src="n-media/video_clip_broccoli.jpg" alt="video clips broccoli">
-            <img src="n-media/cart.png" alt="video clips cart">
-            <img src="n-media/mlogo.png" alt="video clips logo">
-        </div>
-        <div class="btn">
-            <svg class="green-bbtn" viewBox="0 0 500 500">
-                <g class="btn-ball-group">
-                    <g>
-                        <circle class="gbd" cx="250" cy="250" r="250"/>
-                    </g>
-                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
-                </g>
-            </svg>
-            <button class="real-btn" onclick="animationPage()">Learn More</button>
-        </div>
-    </div>
-
-    <!-- empatyspace -->
-    <div>
-        <svg class="empatySpace" viewBox="0 0 500 500">
-            <g class="yellow-b">
-                <g>
-                    <circle class="ybd" cx="250" cy="250" r="250"/>
-                </g>
-                <g>
-                    <circle class="ybl" cx="250" cy="102.5" r="48.79"/>
-                </g>
-            </g>
-        </svg>
-    </div>
-
-    <!-- Photography -->
-    <div id="photography" class="main-div">
-        <!-- first title -->
-        <h2>Photography</h2>
-        <!-- real content -->
-        <p id="photoP"><strong>Did you know?</strong>
-            I'm not only a designer but also an experienced photographer. 
-            From commercial shoots to captivating portraits, 
-            I'm now diving into the world of wedding photography! 
-            Seeking a photographer for your special day? 
-            Explore my portfolio:<a href="https://broccolidesign.myportfolio.com/">https://broccolidesign.myportfolio.com/</a>. 
-            Let's create timeless memories together!</p>
-        <div class="section">
-            <img src="n-media/street.png" alt="street pic">
-            <img src="n-media/girl.png" alt="girl pic">
-            <img src="n-media/man.png" alt="man pic">
-        </div>
-        <div class="btn">
-            <svg class="green-bbtn" viewBox="0 0 500 500">
-                <g class="btn-ball-group">
-                    <g>
-                        <circle class="gbd" cx="250" cy="250" r="250"/>
-                    </g>
-                    <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
-                </g>
-            </svg>
-            <button class="real-btn" onclick="photographyWeb()">Learn More</button>
-        </div>
-    </div>
-
-    <!-- empatyspace -->
-    <div>
-        <svg class="empatySpace" viewBox="0 0 500 500">
-            <g class="green-b">
-                <g>
-                    <circle class="gbd" cx="250" cy="250" r="250"/>
-                </g>
-                <g>
-                    <circle class="gbl" cx="250" cy="102.5" r="48.79"/>
-                </g>
-            </g>
-        </svg>
-    </div>
-
-    <!-- Website -->
-    <div id="website" class="main-div">
-        <h2>Website</h2>
-        <!-- first title -->
-
-        <!-- real content -->
-        <div id="web-btns">
-            <button onclick="summerWeb()"><span>Summer Orchid</span><img src="n-media/sun.png" alt="summer web pic"></button>
-            <button onclick="barWeb()"><span>Waroom Ladies</span><img src="n-media/bar.png" alt="bar web pic"></button>
-            <button onclick="foodWeb()"><span>Foodcome</span><img src="n-media/food.png" alt="food web pic"></button>
-        </div>
-        <p><strong>Web development is my cornerstone in this fast-evolving world.</strong> 
-            Embracing the ever-changing realms of coding and the internet is an exciting journey. 
-            Through years of relentless learning, I've proudly become a full-stack developer. 
-            Whether it's PHP, HTML, Vue, or WordPress, 
-            I've empowered over 10 companies to craft their unique online presence in various formats! 
-            Let's bring your website vision to life together!</p>
-            <div class="btn">
-                <svg class="green-bbtn" viewBox="0 0 500 500">
-                    <g class="btn-ball-group">
-                        <g>
-                            <circle class="gbd" cx="250" cy="250" r="250"/>
-                        </g>
-                        <circle class="gbl" cx="250" cy="121.5" r="85.2"/>
-                    </g>
+    <main class="mt-3 
+    animate__animated animate__zoomIn animate__delay-1s">
+        <p>Pick the Jing-An you want to know</p>
+        <!-- avatars -->
+        <div class="broccmons">
+            <div onmouseover="broccmon_hover(1)" onclick="broccmon_pick(1)">
+                <svg class="animate__animated animate__flipInX animate__delay-2s" width="150" height="150" viewBox="0 0 300 300">
+                    <!-- see vueBroccmons.js -->
+                    <g class="designBrocc"></g>
                 </svg>
-                <button class="real-btn" onclick="webPage()">Learn More</button>
+                <h3 id="dd" class="nes-btn is-success">Designer<br>Jing-An</h3>
             </div>
-    </div>
-
-
-    
-    <footer>
-        <!-- Contact -->
-            <!-- first title -->
-            <h2>Contact Me</h2>
-            <!-- real content -->
-            <div>
-                <!-- phone -->
-                <div>
-                    <svg width="5%" viewBox="0 0 512 512"><path opacity="1" d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/></svg>
-                    <h4><a href="tel:+13439884869">+1 343 988 4869</a></h4>
-                </div>
-                
-                <!-- email -->
-                <div>
-                    <svg width="5%" viewBox="0 0 512 512"><path opacity="1" d="M64 208.1L256 65.9 448 208.1v47.4L289.5 373c-9.7 7.2-21.4 11-33.5 11s-23.8-3.9-33.5-11L64 255.5V208.1zM256 0c-12.1 0-23.8 3.9-33.5 11L25.9 156.7C9.6 168.8 0 187.8 0 208.1V448c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V208.1c0-20.3-9.6-39.4-25.9-51.4L289.5 11C279.8 3.9 268.1 0 256 0z"/></svg>
-                    <h4><a href="mailto:chen0969@algonquinlive.com">chen0969@algonquinlive.com</a></h4>
-                </div>
-                
-                <!-- linkdin -->
-                <div>
-                    <svg width="5%" viewBox="0 0 512 512"><path opacity="1" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-                    <h4><a href="https://www.linkedin.com/in/broccolidesign/">https://www.linkedin.com/in/broccolidesign/</a></h4>
-                </div>
+            <div onmouseover="broccmon_hover(2)" onclick="broccmon_pick(2)">
+                <svg class="animate__animated animate__flipInX animate__delay-2s" width="150" height="150" viewBox="0 0 300 300">
+                    <!-- see vueBroccmons.js -->
+                    <g class="devBrocc"></g>
+                </svg>
+                <h3 id="ddd" class="nes-btn is-success">Developer<br>Jing-An</h3>
             </div>
-        <p>© 2024 Jing-An Chen. All rights reserved.</p>
-
-        <!-- scripts will move to js file later -->
+            <div onmouseover="broccmon_hover(3)" onclick="broccmon_pick(3)">
+                <svg class="animate__animated animate__flipInX animate__delay-2s" width="150" height="150" viewBox="0 0 300 300">
+                    <!-- see vueBroccmons.js -->
+                    <g class="phoBrocc"></g>
+                </svg>
+                <h3 class="nes-btn is-success">Photographer<br>Jing-An</h3>
+            </div>
+        </div>
+    </main>
+    <footer class="container m-3
+    animate__animated animate__fadeIn animate__delay-1s">
+        <a class="col-6 link" href="https://webbroccoli.000.pe/?i=1">©2020-2024 Jing-An Chen. All rights reserved.</a>
+        <!-- social icons -->
+        <div class="col-3 icon-list">
+            <i class="nes-icon instagram is-middle" onclick="openIG()"></i>
+            <i class="nes-icon linkedin is-middle" onclick="openLinkedIn()"></i>
+            <i class="nes-icon whatsapp is-middle" onclick="openWhatsApp()"></i>
+        </div>
+        <a class="col link" href="all-jing-an.html">I want all of them >></a>
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-        <script src="n-js/new-function.js"></script>
+        <!-- vue -->
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <!-- broccoli code -->
+        <script src="js/vueBroccmon.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/route.js"></script>
     </footer>
 </body>
+
 </html>
