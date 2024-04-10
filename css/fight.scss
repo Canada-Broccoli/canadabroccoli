@@ -217,6 +217,7 @@ footer{
 
 // phone media
 @media only screen and (max-width: 450px) {
+    body{overflow-x: hidden;}
     .fiBg{display: none;}
     h1{font-size: 0.5rem !important;}
     h2{font-size: 0.5rem !important; text-align: end;}
