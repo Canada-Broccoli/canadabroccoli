@@ -217,12 +217,12 @@ footer{
 
 // phone media
 @media only screen and (max-width: 450px) {
-    body{overflow-x: hidden;}
     .fiBg{display: none;}
     h1{font-size: 0.5rem !important;}
     h2{font-size: 0.5rem !important; text-align: end;}
     main p{font-size: 0.8rem; letter-spacing: 0.05rem;}
     main{
+        overflow: hidden;
         .broccmon{
             width: 100vw;
             .avatar{
@@ -250,6 +250,9 @@ footer{
             }
         }
         .enemy{
+            #enemyStatus{
+                h5, h6{font-size: 0.9rem;}
+            }
             #cliBit{
                 grid-row: 3/5;
                 width: 3.5rem;

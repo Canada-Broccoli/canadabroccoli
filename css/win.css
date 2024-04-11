@@ -207,6 +207,9 @@ body footer .icon-list i:hover {
     right: -2rem;
     bottom: -4rem;
   }
+  .creatorList h6, .creatorList p {
+    font-size: 0.5rem;
+  }
   footer {
     width: 100vw;
     display: flex;

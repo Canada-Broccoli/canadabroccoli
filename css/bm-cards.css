@@ -353,6 +353,14 @@ footer label {
   main #summarySection section button {
     font-size: 0.4rem;
   }
+  main #summarySection section dialog {
+    width: 100vw !important;
+    height: 50vh;
+  }
+  main #summarySection section dialog svg {
+    width: 5rem;
+    height: 5rem;
+  }
   main .experienceSection div.nes-container {
     height: 180vh;
   }

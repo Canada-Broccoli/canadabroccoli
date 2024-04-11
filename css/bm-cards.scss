@@ -309,7 +309,15 @@ footer{
         #summarySection{
             section{
                 width: 33%;
-                button{font-size: 0.4rem;}   
+                button{font-size: 0.4rem;}
+                dialog{
+                    width: 100vw !important;
+                    height: 50vh;
+                    svg{
+                        width: 5rem;
+                        height: 5rem;
+                    }
+                }
             }
         }
         .experienceSection{

@@ -270,9 +270,6 @@ footer em {
 }
 
 @media only screen and (max-width: 450px) {
-  body {
-    overflow-x: hidden;
-  }
   .fiBg {
     display: none;
   }
@@ -286,6 +283,9 @@ footer em {
   main p {
     font-size: 0.8rem;
     letter-spacing: 0.05rem;
+  }
+  main {
+    overflow: hidden;
   }
   main .broccmon {
     width: 100vw;
@@ -311,6 +311,9 @@ footer em {
     width: -moz-max-content;
     width: max-content;
     left: 0;
+  }
+  main .enemy #enemyStatus h5, main .enemy #enemyStatus h6 {
+    font-size: 0.9rem;
   }
   main .enemy #cliBit {
     grid-row: 3/5;
